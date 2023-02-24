@@ -163,9 +163,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/miatoll/proprietary/vendor/etc/acdbdata/IDP/atoll-wcd937x-snd-card/IDP_WCD937X_workspaceFile.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/IDP/atoll-wcd937x-snd-card/IDP_WCD937X_workspaceFile.qwsp \
     vendor/xiaomi/miatoll/proprietary/vendor/etc/acdbdata/adsp_avs_config.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/adsp_avs_config.acdb \
     vendor/xiaomi/miatoll/proprietary/vendor/etc/apdr.conf:$(TARGET_COPY_OUT_VENDOR)/etc/apdr.conf \
-    vendor/xiaomi/miatoll/proprietary/vendor/etc/audio_io_policy.conf:$(TARGET_COPY_OUT_VENDOR)/etc/audio_io_policy.conf \
     vendor/xiaomi/miatoll/proprietary/vendor/etc/audio_platform_info_intcodec.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_platform_info_intcodec.xml \
-    vendor/xiaomi/miatoll/proprietary/vendor/etc/audio_policy_volumes.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_volumes.xml \
     vendor/xiaomi/miatoll/proprietary/vendor/etc/cacert_location.pem:$(TARGET_COPY_OUT_VENDOR)/etc/cacert_location.pem \
     vendor/xiaomi/miatoll/proprietary/vendor/etc/camera/CFR_para_M_src1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/CFR_para_M_src1.bin \
     vendor/xiaomi/miatoll/proprietary/vendor/etc/camera/CFR_para_M_src2.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/CFR_para_M_src2.bin \
@@ -277,7 +275,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/miatoll/proprietary/vendor/etc/init/wfdvndservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wfdvndservice.rc \
     vendor/xiaomi/miatoll/proprietary/vendor/etc/izat.conf:$(TARGET_COPY_OUT_VENDOR)/etc/izat.conf \
     vendor/xiaomi/miatoll/proprietary/vendor/etc/lowi.conf:$(TARGET_COPY_OUT_VENDOR)/etc/lowi.conf \
-    vendor/xiaomi/miatoll/proprietary/vendor/etc/mixer_paths_wcd937x.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_wcd937x.xml \
     vendor/xiaomi/miatoll/proprietary/vendor/etc/msm_irqbalance.conf:$(TARGET_COPY_OUT_VENDOR)/etc/msm_irqbalance.conf \
     vendor/xiaomi/miatoll/proprietary/vendor/etc/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt \
     vendor/xiaomi/miatoll/proprietary/vendor/etc/qdcm_calib_data_ft8756_video_mode_dsi_huaxing_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_ft8756_video_mode_dsi_huaxing_panel.xml \
