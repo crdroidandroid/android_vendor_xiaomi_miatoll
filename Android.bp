@@ -4,7 +4,7 @@
 
 soong_namespace {
     imports: [
-        "device/xiaomi/sm6250-common",
+        "device/xiaomi/miatoll",
         "hardware/qcom-caf/sm8150",
         "hardware/qcom-caf/wlan",
         "hardware/xiaomi",
@@ -10363,6 +10363,24 @@ cc_prebuilt_library_shared {
                 "libc",
                 "libm",
                 "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libpn553_fw",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libpn553_fw.so",
             ],
         },
     },
