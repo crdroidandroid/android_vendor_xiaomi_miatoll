@@ -391,6 +391,9 @@ PRODUCT_PACKAGES += \
     libqsocket \
     libwfddisplayconfig_proprietary \
     libwfdhdcpcp \
+    libqcbassboost \
+    libqcreverb \
+    libqcvirt \
     vendor.qti.hardware.wifidisplaysession@1.0_vendor \
     btaudio_offload_if \
     audio.bluetooth_qti.default \
